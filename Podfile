@@ -3,7 +3,8 @@
 
 def base_pods
   # 从本地路径改为远程Git地址和Tag
-  pod 'BaseModule', :git => 'git@github.com:YourCompany/BaseModule-iOS.git', :tag => '0.1.0'
+  pod 'BaseModule', :git => 'https://github.com/nbkey/BaseModule.git', :tag => '0.1.0'
+  pod 'ModuleA', :git => 'https://github.com/nbkey/ModuleA.git', :tag => '0.1.0'
 end
 
 target 'MyAwesomeDemo' do
@@ -14,4 +15,5 @@ target 'MyAwesomeDemo' do
   pod 'Masonry'
 
   pod 'BaseModule', :path => './BaseModule'
+  pod 'ModuleA', :path => './ModuleA'
 end

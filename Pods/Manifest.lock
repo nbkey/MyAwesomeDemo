@@ -18,11 +18,13 @@ PODS:
     - AFNetworking (~> 4.0)
     - YYModel
   - Masonry (1.1.0)
+  - ModuleA (0.1.0)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
   - BaseModule (from `./BaseModule`)
   - Masonry
+  - ModuleA (from `./ModuleA`)
 
 SPEC REPOS:
   trunk:
@@ -33,13 +35,16 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   BaseModule:
     :path: "./BaseModule"
+  ModuleA:
+    :path: "./ModuleA"
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  BaseModule: d06c03c1dd20d7993473fd98577ecf5552a1554d
+  BaseModule: 3d482db848941da3ccc1ffdaae19911447a69723
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ModuleA: 3d60a9b106c6aa03025b6497e6f0b06755a90389
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 26205e02a49c251803979c39e5b7fc1ef588a134
+PODFILE CHECKSUM: 06c5b062a168e14eec20478adfe5f442b9c7eceb
 
 COCOAPODS: 1.16.2
