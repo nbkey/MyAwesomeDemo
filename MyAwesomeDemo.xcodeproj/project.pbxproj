@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0A1D53678F0F06DD2A2156F /* libPods-MyAwesomeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07236BDCAE8BD7C7A0F76BE0 /* libPods-MyAwesomeDemo.a */; };
+		5813E708A5D48DF845667311 /* libPods-MyAwesomeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B0AE0B5E51D57CB8C418AA /* libPods-MyAwesomeDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07236BDCAE8BD7C7A0F76BE0 /* libPods-MyAwesomeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyAwesomeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5697A5AE39181B421D90677A /* Pods-MyAwesomeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAwesomeDemo.release.xcconfig"; path = "Target Support Files/Pods-MyAwesomeDemo/Pods-MyAwesomeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		841714C02E5577920009FE44 /* MyAwesomeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwesomeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C675E98D790C6C938BF1DE6F /* Pods-MyAwesomeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAwesomeDemo.debug.xcconfig"; path = "Target Support Files/Pods-MyAwesomeDemo/Pods-MyAwesomeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		96B0AE0B5E51D57CB8C418AA /* libPods-MyAwesomeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyAwesomeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEF3C2F9E6345A18A94DBCA /* Pods-MyAwesomeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAwesomeDemo.debug.xcconfig"; path = "Target Support Files/Pods-MyAwesomeDemo/Pods-MyAwesomeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E0D944062C43CA140A624D15 /* Pods-MyAwesomeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAwesomeDemo.release.xcconfig"; path = "Target Support Files/Pods-MyAwesomeDemo/Pods-MyAwesomeDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A1D53678F0F06DD2A2156F /* libPods-MyAwesomeDemo.a in Frameworks */,
+				5813E708A5D48DF845667311 /* libPods-MyAwesomeDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,10 +53,9 @@
 		6E50E35FF6DD308B9E916835 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C675E98D790C6C938BF1DE6F /* Pods-MyAwesomeDemo.debug.xcconfig */,
-				5697A5AE39181B421D90677A /* Pods-MyAwesomeDemo.release.xcconfig */,
+				CEEF3C2F9E6345A18A94DBCA /* Pods-MyAwesomeDemo.debug.xcconfig */,
+				E0D944062C43CA140A624D15 /* Pods-MyAwesomeDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -66,7 +65,7 @@
 				841714C22E5577920009FE44 /* MyAwesomeDemo */,
 				841714C12E5577920009FE44 /* Products */,
 				6E50E35FF6DD308B9E916835 /* Pods */,
-				936048E1F7D09843F82F667E /* Frameworks */,
+				FCF9CADEA0E5A8ECC9E37D8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +77,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		936048E1F7D09843F82F667E /* Frameworks */ = {
+		FCF9CADEA0E5A8ECC9E37D8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				07236BDCAE8BD7C7A0F76BE0 /* libPods-MyAwesomeDemo.a */,
+				96B0AE0B5E51D57CB8C418AA /* libPods-MyAwesomeDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -93,11 +92,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841714D82E5577940009FE44 /* Build configuration list for PBXNativeTarget "MyAwesomeDemo" */;
 			buildPhases = (
-				488E81016AED4E4C02685FDD /* [CP] Check Pods Manifest.lock */,
+				3DA199FC3D7CD040D7274CD2 /* [CP] Check Pods Manifest.lock */,
 				841714BC2E5577920009FE44 /* Sources */,
 				841714BD2E5577920009FE44 /* Frameworks */,
 				841714BE2E5577920009FE44 /* Resources */,
-				1867949C4FBE8A1C41EA4292 /* [CP] Copy Pods Resources */,
+				92CFAE4C15907412D472FFBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,24 +154,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1867949C4FBE8A1C41EA4292 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyAwesomeDemo/Pods-MyAwesomeDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyAwesomeDemo/Pods-MyAwesomeDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAwesomeDemo/Pods-MyAwesomeDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		488E81016AED4E4C02685FDD /* [CP] Check Pods Manifest.lock */ = {
+		3DA199FC3D7CD040D7274CD2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,6 +176,27 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		92CFAE4C15907412D472FFBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAwesomeDemo/Pods-MyAwesomeDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAwesomeDemo/Pods-MyAwesomeDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAwesomeDemo/Pods-MyAwesomeDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -209,7 +212,7 @@
 /* Begin XCBuildConfiguration section */
 		841714D92E5577940009FE44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C675E98D790C6C938BF1DE6F /* Pods-MyAwesomeDemo.debug.xcconfig */;
+			baseConfigurationReference = CEEF3C2F9E6345A18A94DBCA /* Pods-MyAwesomeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -237,7 +240,7 @@
 		};
 		841714DA2E5577940009FE44 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5697A5AE39181B421D90677A /* Pods-MyAwesomeDemo.release.xcconfig */;
+			baseConfigurationReference = E0D944062C43CA140A624D15 /* Pods-MyAwesomeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,7 +304,7 @@
 				DEVELOPMENT_TEAM = P8U92WRVUA;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -363,7 +366,7 @@
 				DEVELOPMENT_TEAM = P8U92WRVUA;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

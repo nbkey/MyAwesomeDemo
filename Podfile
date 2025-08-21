@@ -18,4 +18,7 @@ target 'MyAwesomeDemo' do
   pod 'BaseModule', :path => './BaseModule'
   pod 'ModuleA', :path => './ModuleA'
   pod 'ModuleB', :path => './ModuleB'
+  
+  # base_pods
+
 end
